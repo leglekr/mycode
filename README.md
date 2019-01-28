@@ -1,4 +1,5 @@
 # mycode (Project Title)
+#I want to learn how to version control projects with git.
 
 One Paragraph of your project description goes here. Describe what you're trying to do. What is the purpose of putting up this repo?
 
