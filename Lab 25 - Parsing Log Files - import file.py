@@ -2,10 +2,9 @@
 loginfail = 0
 loginsuccess = 0
 
-
-filename = 'C:\\leglekr\PycharmProjects\PythonBasicsClass\venv\Labs\keystone.common.txt'
-keystone_file = open('keystone.common.txt','r')
-
+myuserid= input('Enter your user id: ')
+filename = 'C:\\users\\' + myuserid + '\\PycharmProjects\\PythonBasicsClass\\venv\Labs\\test\\keystone.common.txt'
+keystone_file = open (filename,'r')
 
 ############################################################################################################
 # PROBLEM:  The string 'Authorization failed' appears for both FAILED and SUCCESSFUL login attempts
